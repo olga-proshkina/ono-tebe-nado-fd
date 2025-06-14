@@ -1,7 +1,7 @@
 .header {
   height: 293px;
   width: 100%;
-  padding: 90px 90px 95px 50px;
+  padding: 90px 86px 95px 50px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -26,9 +26,9 @@
 
 .logo {
   height: 105px;
-  width: 148px;
+  width: 140px;
   align-self: start;
-  margin-left: 35px; /*корректировка положения логотипа - в макете он не в центре страницы */
+  margin-left: 40px; /*корректировка положения логотипа - в макете он не в центре страницы */
 }
 
 .address {
@@ -179,7 +179,7 @@
   font-size: 20px;
   text-decoration: underline;
   margin-left: 40px;
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
 }
 
 .card-text {
@@ -191,7 +191,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding: 35px 27px 180px 24px;
+  padding: 35px 27px 176px 24px;
   align-items: start;
 }
 
@@ -210,15 +210,18 @@
 }
 
 .about_description_heading {
+  padding-top: 4px;
   font: Raleway;
   font-size: 40px;
   text-transform: uppercase;
-  margin-bottom: 105px;
+  margin-bottom: 100px;
 }
 
 .about_description_text {
   font-size: 20px;
   font: Raleway;
+  margin-bottom: 4px;
+  margin-right: 0px;
 }
 
 .footer {
@@ -226,7 +229,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 5px 50px 82px 50px;
+  padding: 0px 50px 82px 50px;
 }
 
 .footer_social-link {
