@@ -16,7 +16,7 @@
   display: flex;
   gap: 33px;
   list-style: circle;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
   text-underline-offset: 2px;
   font-size: 18px;
 }
@@ -39,7 +39,7 @@
   text-decoration: none;
   text-underline-offset: 4px;
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 .cover {
@@ -71,7 +71,7 @@
   color: white;
   margin-bottom: 95px;
   z-index: 2;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 .aligned-text_center {
@@ -91,7 +91,7 @@
 }
 
 .cover_description-text {
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
   text-transform: uppercase;
   font-size: 22px;
   word-spacing: 18px;
@@ -109,7 +109,7 @@
   color: white;
   background-color: transparent;
   cursor: pointer;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 .lots {
@@ -117,7 +117,7 @@
 }
 
 .lots_heading {
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 40px;
   text-transform: uppercase;
   margin-left: 40px;
@@ -162,11 +162,11 @@
 .lots_card-heading {
   text-transform: uppercase;
   font-size: 22px;
-  margin-bottom: 36px;
+  margin-bottom: 38px;
   color: white;
   z-index: 5;
   text-decoration: underline;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 .lots_text-link {
@@ -180,7 +180,8 @@
   font-size: 20px;
   color: white;
   z-index: 5;
-  font-family: "Raleway";
+  line-height: 1.2em;
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 .about {
@@ -206,7 +207,7 @@
 
 .about_description_heading {
   padding-top: 4px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 100px;
@@ -214,9 +215,10 @@
 
 .about_description_text {
   font-size: 20px;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
   margin-bottom: 4px;
   margin-right: 0px;
+  line-height: 1.2em;
 }
 
 .footer {
@@ -239,7 +241,7 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
   text-decoration: underline;
   text-underline-offset: 2px;
   font-size: 18px;
